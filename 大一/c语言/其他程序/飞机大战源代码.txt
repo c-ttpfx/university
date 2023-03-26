@@ -1,0 +1,228 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<conio.h>
+#include<windows.h>
+#include<time.h>
+#define high 25
+#define width 50
+#define N 3
+int canvas[high][width];
+int i, j;
+int position_x, position_y;
+int enemy_x[N], enemy_y[N];
+int score;
+int k;
+int bulletwidth;
+void hidden()
+{
+	HANDLE hOut = GetStdHandle(STD_OUTPUT_HANDLE);
+	CONSOLE_CURSOR_INFO cci;
+	GetConsoleCursorInfo(hOut, &cci);
+	cci.bVisible = FALSE;
+	SetConsoleCursorInfo(hOut, &cci);
+}
+void startup()		//数据初始化
+{
+	bulletwidth = 0;
+	score = 0;
+	position_x = high / 2;
+	position_y = width / 2;
+	canvas[position_x][position_y] = 1;
+	for (k = 0; k< N;k++)
+	{
+		enemy_x[k] = rand() % 3;
+		enemy_y[k] = rand() % width;
+		canvas[enemy_x[k]][enemy_y[k]] = 3;
+
+	}
+	
+}
+void gotoxy(int x, int y)
+{
+	COORD pos = { x,y };
+	HANDLE hOut = GetStdHandle(STD_OUTPUT_HANDLE);// 获取标准输出设备句柄
+	SetConsoleCursorPosition(hOut, pos);//两个参数分别是指定哪个窗体，具体位置
+}
+
+void show()		//显示画面
+{
+	gotoxy(0, 0);
+	hidden();
+	for (i = 0; i < high; i++)
+	{
+		for (j = 0; j < width; j++)
+		{
+			if (canvas[i][j] == 1)
+					printf("*"); 
+			else if (canvas[i][j] == 2)
+			{
+				for (k = 0; k < N; k++)
+				{
+					if ((i == enemy_x[k]) && (j == enemy_y[k]))
+					{
+						enemy_x[k] = 0;
+						enemy_y[k] = rand() % width;
+						canvas[enemy_x[k]][enemy_y[k]] = 3;
+						score++;
+					}
+				}
+				printf("|");
+			}
+			else if (canvas[i][j] == 3)
+				printf("@");
+			else
+				printf(" ");
+		}
+		printf("\n");
+		
+	}
+printf("分数：%d\n",score);
+printf("空格发射子弹，0发动大招\n");
+}
+void updateWithoutInput()		//与用户输入无关的更新
+{
+	for (i = 0; i < high; i++)
+	{
+		for (j = 0; j < width; j++)
+		{
+			if (canvas[i][j] == 2)
+			{
+				canvas[i][j] = 0;
+				if(i>0)
+				canvas[i - 1][j] = 2;
+			}
+		}
+	}
+	
+	static int speed = 20;
+	if (speed < 20)
+		speed++;
+	if (speed == 20)
+	{
+		speed = 0;
+		for (k = 0; k < N; k++)
+		{
+			if (enemy_x[k]< high)
+			{
+				canvas[enemy_x[k]][enemy_y[k]] = 0;
+				enemy_x[k]++;
+				canvas[enemy_x[k]][enemy_y[k]] = 3;
+			}
+			if (enemy_x[k] == high)
+			{
+				enemy_x[k] = 0;
+				enemy_y[k] = rand() % width;
+				canvas[enemy_x[k]][enemy_y[k]] = 3;
+				score--;
+			}
+		}
+		
+	}
+	for (k = 0; k < N; k++)
+	{
+		if ((position_x == enemy_x[k]) && (position_y == enemy_y[k]))
+			{
+				score--;
+			}
+	}
+	if (score > 80)
+		bulletwidth = 8;
+	else if (score > 70)
+		bulletwidth = 7;
+	else if (score > 60)
+		bulletwidth = 6;
+	else if (score > 50)
+		bulletwidth = 5;
+	else if (score > 40)
+		bulletwidth = 4;
+	else if (score > 30)
+		bulletwidth = 3;
+	else if (score > 20)
+		bulletwidth = 2;
+	 else if (score > 10)
+		bulletwidth = 1;
+	
+	if (score < 0)
+		exit(0);
+	
+}
+void updateWithInput()		//与用户输入有关的更新
+{
+	if (_kbhit())
+	{
+		char input;
+		input = _getch();
+		if (input == 'a')
+		{
+			canvas[position_x][position_y] = 0;
+			position_y--;
+			canvas[position_x][position_y] = 1;
+		}
+		if (input == 'd')
+		{
+			canvas[position_x][position_y] = 0;
+			position_y++;
+			canvas[position_x][position_y] = 1;
+		}
+		if (input == 'w')
+		{
+			canvas[position_x][position_y] = 0;
+			position_x--;
+			canvas[position_x][position_y] = 1;
+		}
+		if (input == 's')
+		{
+			canvas[position_x][position_y] = 0;
+			position_x++;
+			canvas[position_x][position_y] = 1;
+		}
+		if (input == ' ')
+		{
+			int left, right;
+			left = position_y - bulletwidth;
+			if (left < 0)
+				left = 0;
+			right = position_y + bulletwidth;
+			if (right > width - 1)
+				right = width-1;
+			int x;
+			for(x=left;x<=right;x++)
+			canvas[position_x-1][x] = 2;
+		}
+		if (input == '0')
+		{
+			bulletwidth = width / 2;
+			int left, right;
+			left = position_y - bulletwidth;
+			if (left < 0)
+				left = 0;
+			right = position_y + bulletwidth;
+			if (right > width - 1)
+				right = width - 1;
+			int x;
+			for (x = left; x <= right; x++)
+				canvas[position_x - 1][x] = 2;
+		}
+		
+		if(input == 27)
+		{
+			printf("成功退出游戏\n");
+			exit(0);
+		} 
+
+	}
+}
+int main()
+{
+	startup();	//数据初始化
+	while (1)
+	{
+		srand((unsigned)time(NULL));
+		show();		//显示画面
+		updateWithoutInput();	//与用户输入无关的更新
+		updateWithInput();		//与用户输入有关的更新
+
+	}
+
+	return 0;
+}
