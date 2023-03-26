@@ -23,8 +23,11 @@ CREATE TABLE `user_stock`  (
 ```
 
 我在maven中引入了tomcat的插件，运行就是靠这个插件
+**项目启动之后访问http://localhost:8080/login.html**
 
 项目的运行截图放在 运行截图目录下，下面为部分截图
+
+
 
 ![主界面](https://github.com/c-ttpfx/university/blob/main/%E5%A4%A7%E4%B8%80/java/%E8%82%A1%E7%A5%A8%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F/%E6%BC%94%E7%A4%BA%E5%9B%BE%E7%89%87/%E4%B8%BB%E9%A1%B5%E9%9D%A2.png)
 
