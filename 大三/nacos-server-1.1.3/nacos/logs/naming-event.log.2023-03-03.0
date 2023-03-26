@@ -1,0 +1,586 @@
+2023-03-03 12:31:59,932 INFO DEFAULT_GROUP@@living-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:11111:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:31:59,934 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-gateway, ips: 192.168.179.1:11111_true,
+
+2023-03-03 12:31:59,938 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-gateway, ips: 192.168.179.1:11111_true,
+
+2023-03-03 12:32:02,100 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:32:02,100 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 12:32:02,101 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:32:02,101 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 12:32:02,498 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:32:02,498 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.179.1:8080_true,
+
+2023-03-03 12:32:02,498 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.179.1:8080_true,
+
+2023-03-03 12:32:14,635 INFO DEFAULT_GROUP@@living-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:9999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:32:14,635 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-service, ips: 192.168.179.1:9999_true,
+
+2023-03-03 12:32:14,636 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-service, ips: 192.168.179.1:9999_true,
+
+2023-03-03 12:37:39,477 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:37:39,477 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 12:37:39,477 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:37:39,477 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 12:37:52,493 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:37:52,493 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 12:37:52,493 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:37:52,493 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 12:37:52,497 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 12:37:52,497 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 12:39:19,624 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:39:19,624 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 12:39:19,624 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:39:19,624 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 12:39:33,432 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:39:33,432 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 12:39:33,432 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:39:33,432 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 12:39:33,435 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 12:39:33,435 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 12:45:38,052 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:45:38,052 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 12:45:38,052 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:45:38,052 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 12:45:50,845 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:45:50,845 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 12:45:50,845 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:45:50,845 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 12:45:50,847 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 12:45:50,847 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 12:48:31,620 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:48:31,620 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 12:48:31,620 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:48:31,620 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 12:48:46,274 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:48:46,274 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 12:48:46,274 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:48:46,274 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 12:48:46,277 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 12:48:46,277 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 12:49:52,382 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:49:52,382 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 12:49:52,383 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:49:52,383 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 12:50:09,119 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:50:09,119 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 12:50:09,119 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:50:09,119 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 12:50:09,121 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 12:50:09,121 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 12:50:46,258 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:50:46,258 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 12:50:46,258 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:50:46,258 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 12:51:26,271 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:51:26,271 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 12:51:26,271 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:51:26,271 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 12:51:26,273 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 12:51:26,273 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 12:52:18,930 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:52:18,930 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 
+
+2023-03-03 12:52:18,951 INFO DEFAULT_GROUP@@living-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:11111:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:52:18,951 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-gateway, ips: 
+
+2023-03-03 12:52:18,983 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:52:18,983 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 12:52:18,983 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:52:18,983 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 12:52:19,017 INFO DEFAULT_GROUP@@living-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:9999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:52:19,017 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-service, ips: 
+
+2023-03-03 12:53:10,896 INFO DEFAULT_GROUP@@living-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:11111:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:53:10,896 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-gateway, ips: 192.168.179.1:11111_true,
+
+2023-03-03 12:53:10,896 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-gateway, ips: 192.168.179.1:11111_true,
+
+2023-03-03 12:53:11,857 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:53:11,857 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.179.1:8080_true,
+
+2023-03-03 12:53:12,544 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:53:12,544 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 12:53:12,545 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:53:12,545 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 12:53:12,549 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 12:53:12,549 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 12:53:13,058 INFO DEFAULT_GROUP@@living-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:9999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:53:13,058 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-service, ips: 192.168.179.1:9999_true,
+
+2023-03-03 12:53:13,061 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-service, ips: 192.168.179.1:9999_true,
+
+2023-03-03 12:54:30,627 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:54:30,628 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 12:54:30,628 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:54:30,628 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 12:55:14,065 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:55:14,065 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 12:55:14,065 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 12:55:14,065 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 12:55:14,068 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 12:55:14,068 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:01:16,752 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:01:16,752 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 13:01:16,752 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:01:16,752 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 13:01:50,102 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:01:50,102 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:01:50,102 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:01:50,102 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:01:50,106 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:01:50,106 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:03:39,875 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:03:39,875 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 13:03:39,875 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:03:39,875 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 13:03:51,506 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:03:51,506 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:03:51,506 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:03:51,506 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:03:51,509 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:03:51,510 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:06:01,936 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:06:01,936 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 13:06:01,936 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:06:01,936 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 13:06:12,639 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:06:12,639 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:06:12,639 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:06:12,639 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:06:12,641 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:06:12,642 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:06:37,969 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:06:37,969 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 13:06:37,969 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:06:37,969 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 13:10:35,048 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:10:35,048 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:10:35,048 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:10:35,048 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:10:35,052 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:10:35,052 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:13:40,880 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:13:40,880 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 13:13:40,881 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:13:40,881 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 13:14:00,445 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:14:00,445 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:14:00,445 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:14:00,445 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:14:00,447 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:14:00,447 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:15:11,402 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:15:11,402 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 13:15:11,402 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:15:11,402 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 13:15:29,073 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:15:29,073 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:15:29,073 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:15:29,073 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:15:29,076 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:15:29,076 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:17:43,986 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:17:43,987 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 13:17:43,987 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:17:43,987 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 13:17:57,881 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:17:57,881 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:17:57,881 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:17:57,881 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:17:57,883 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:17:57,883 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:21:23,333 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:21:23,333 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 13:21:23,333 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:21:23,333 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 13:21:35,619 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:21:35,619 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:21:35,619 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:21:35,619 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:21:35,621 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:21:35,621 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:25:23,892 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:25:23,892 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 13:25:23,892 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:25:23,892 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 13:25:34,744 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:25:34,744 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:25:34,744 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:25:34,744 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:25:34,746 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:25:34,746 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:28:03,582 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:28:03,582 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 13:28:03,582 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:28:03,582 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 13:28:14,838 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:28:14,838 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:28:14,838 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:28:14,838 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:28:14,841 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:28:14,841 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:30:11,544 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:30:11,544 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 13:30:11,544 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:30:11,544 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 13:30:22,649 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:30:22,649 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:30:22,649 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:30:22,649 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:30:22,652 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:30:22,652 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:33:54,679 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:33:54,679 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 13:33:54,680 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:33:54,680 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 13:34:06,836 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:34:06,836 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:34:06,836 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:34:06,836 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:34:06,839 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:34:06,839 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:36:25,577 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:36:25,577 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 13:36:25,577 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:36:25,577 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 13:36:36,040 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:36:36,040 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:36:36,040 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:36:36,040 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:36:36,043 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:36:36,043 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:40:23,885 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:40:23,885 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 13:40:23,885 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:40:23,885 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 13:40:36,011 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:40:36,011 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:40:36,012 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:40:36,012 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:40:36,015 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:40:36,015 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:41:58,872 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:41:58,873 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 13:41:58,873 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:41:58,873 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 13:42:10,561 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:42:10,561 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:42:10,561 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:42:10,561 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:42:10,564 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:42:10,564 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:42:34,335 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:42:34,335 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 13:42:34,335 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:42:34,335 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 13:42:47,052 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:42:47,052 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:42:47,052 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:42:47,052 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:42:47,055 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:42:47,056 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:43:34,506 INFO {POS} {IP-DISABLED} valid: 192.168.179.1:8888@DEFAULT@DEFAULT_GROUP@@living-commodity, region: unknown, msg: client timeout after 15000, last beat: 1677822197113
+
+2023-03-03 13:43:34,506 INFO {POS} {IP-DISABLED} valid: 192.168.179.1:8888@DEFAULT@DEFAULT_GROUP@@living-commodity, region: unknown, msg: client timeout after 15000, last beat: 1677822197113
+
+2023-03-03 13:43:35,253 INFO service: DEFAULT_GROUP@@living-commodity {POS} {IP-ENABLED} valid: 192.168.179.1:8888@DEFAULT, region: unknown, msg: client beat ok
+
+2023-03-03 13:43:54,547 INFO {POS} {IP-DISABLED} valid: 192.168.179.1:8888@DEFAULT@DEFAULT_GROUP@@living-commodity, region: unknown, msg: client timeout after 15000, last beat: 1677822215253
+
+2023-03-03 13:43:54,547 INFO {POS} {IP-DISABLED} valid: 192.168.179.1:8888@DEFAULT@DEFAULT_GROUP@@living-commodity, region: unknown, msg: client timeout after 15000, last beat: 1677822215253
+
+2023-03-03 13:43:57,537 INFO service: DEFAULT_GROUP@@living-commodity {POS} {IP-ENABLED} valid: 192.168.179.1:8888@DEFAULT, region: unknown, msg: client beat ok
+
+2023-03-03 13:43:57,572 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:43:57,572 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 13:43:57,572 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:43:57,572 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 13:44:08,453 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:44:08,453 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:44:08,453 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:44:08,453 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:44:08,456 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:44:08,456 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-03 13:44:50,839 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:44:50,839 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 
+
+2023-03-03 13:44:50,848 INFO DEFAULT_GROUP@@living-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:11111:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:44:50,848 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-gateway, ips: 
+
+2023-03-03 13:44:50,879 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:44:50,879 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 13:44:50,879 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:44:50,879 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-03 13:44:50,931 INFO DEFAULT_GROUP@@living-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:9999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-03 13:44:50,931 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-service, ips: 
+

@@ -1,0 +1,1098 @@
+2023-03-26 13:31:42,047 INFO listen for service meta change
+
+2023-03-26 13:31:45,422 INFO [SERVER-INIT] got port: 8848
+
+2023-03-26 13:31:45,422 INFO [SERVER-INIT] got path: /nacos
+
+2023-03-26 13:31:45,927 INFO creating empty service public:DEFAULT_GROUP@@living-gateway
+
+2023-03-26 13:31:45,950 INFO [NEW-SERVICE] {"appName":"","checksum":"233298282e51d6f09d55d98d59e32f2a","clusterMap":{},"enabled":true,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1679808705931,"metadata":{},"name":"DEFAULT_GROUP@@living-gateway","namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
+
+2023-03-26 13:31:45,979 WARN cluster: DEFAULT not found, ip: {"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.179.1#11111#DEFAULT#DEFAULT_GROUP@@living-gateway","ip":"192.168.179.1","ipDeleteTimeout":30000,"lastBeat":1679808705927,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":11111,"serviceName":"DEFAULT_GROUP@@living-gateway","tenant":"","weight":1.0}, will create new cluster with default configuration.
+
+2023-03-26 13:31:45,987 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@living-gateway, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.179.1#11111#DEFAULT#DEFAULT_GROUP@@living-gateway","ip":"192.168.179.1","ipDeleteTimeout":30000,"lastBeat":1679808705927,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":11111,"serviceName":"DEFAULT_GROUP@@living-gateway","tenant":"","weight":1.0}]}
+
+2023-03-26 13:31:46,039 INFO creating empty service public:DEFAULT_GROUP@@living-commodity
+
+2023-03-26 13:31:46,040 INFO [NEW-SERVICE] {"appName":"","checksum":"b6506a58f81c3e7a035a041721dca56e","clusterMap":{},"enabled":true,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1679808706039,"metadata":{},"name":"DEFAULT_GROUP@@living-commodity","namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
+
+2023-03-26 13:31:46,040 WARN cluster: DEFAULT not found, ip: {"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.179.1#8888#DEFAULT#DEFAULT_GROUP@@living-commodity","ip":"192.168.179.1","ipDeleteTimeout":30000,"lastBeat":1679808706039,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8888,"serviceName":"DEFAULT_GROUP@@living-commodity","tenant":"","weight":1.0}, will create new cluster with default configuration.
+
+2023-03-26 13:31:46,040 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@living-commodity, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.179.1#8888#DEFAULT#DEFAULT_GROUP@@living-commodity","ip":"192.168.179.1","ipDeleteTimeout":30000,"lastBeat":1679808706039,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8888,"serviceName":"DEFAULT_GROUP@@living-commodity","tenant":"","weight":1.0}]}
+
+2023-03-26 13:31:46,898 INFO receive config info: unknown#192.168.179.1:8848#1679808706898#4
+
+
+2023-03-26 13:31:48,148 INFO creating empty service public:DEFAULT_GROUP@@living-service
+
+2023-03-26 13:31:48,148 INFO [NEW-SERVICE] {"appName":"","checksum":"3960fa1679308b7319d7fb76439591b4","clusterMap":{},"enabled":true,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1679808708148,"metadata":{},"name":"DEFAULT_GROUP@@living-service","namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
+
+2023-03-26 13:31:48,148 WARN cluster: DEFAULT not found, ip: {"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.179.1#9999#DEFAULT#DEFAULT_GROUP@@living-service","ip":"192.168.179.1","ipDeleteTimeout":30000,"lastBeat":1679808708148,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":9999,"serviceName":"DEFAULT_GROUP@@living-service","tenant":"","weight":1.0}, will create new cluster with default configuration.
+
+2023-03-26 13:31:48,149 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@living-service, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.179.1#9999#DEFAULT#DEFAULT_GROUP@@living-service","ip":"192.168.179.1","ipDeleteTimeout":30000,"lastBeat":1679808708148,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":9999,"serviceName":"DEFAULT_GROUP@@living-service","tenant":"","weight":1.0}]}
+
+2023-03-26 13:32:01,912 INFO [NACOS-DISTRO] healthy server list changed, disable health check for 60000 ms from now on, old: [], new: [{"adWeight":0,"alive":true,"ip":"192.168.179.1","key":"192.168.179.1:8848","lastRefTime":1679808706898,"lastRefTimeStr":"2023-03-26 13:31:46","servePort":8848,"site":"unknown","weight":4}]
+
+2023-03-26 13:32:01,913 INFO receive config info: unknown#192.168.179.1:8848#1679808721913#4
+
+
+2023-03-26 13:32:16,915 INFO receive config info: unknown#192.168.179.1:8848#1679808736915#4
+
+
+2023-03-26 13:32:31,921 INFO receive config info: unknown#192.168.179.1:8848#1679808751921#4
+
+
+2023-03-26 13:32:46,931 INFO receive config info: unknown#192.168.179.1:8848#1679808766931#4
+
+
+2023-03-26 13:33:01,938 INFO [NACOS-DISTRO] distro threshold restored and stable now, enable health check. current ratio: 1.0
+
+2023-03-26 13:33:01,938 INFO receive config info: unknown#192.168.179.1:8848#1679808781938#4
+
+
+2023-03-26 13:33:16,943 INFO receive config info: unknown#192.168.179.1:8848#1679808796943#4
+
+
+2023-03-26 13:33:31,955 INFO receive config info: unknown#192.168.179.1:8848#1679808811955#4
+
+
+2023-03-26 13:33:46,962 INFO receive config info: unknown#192.168.179.1:8848#1679808826962#4
+
+
+2023-03-26 13:34:01,968 INFO receive config info: unknown#192.168.179.1:8848#1679808841967#4
+
+
+2023-03-26 13:34:16,970 INFO receive config info: unknown#192.168.179.1:8848#1679808856969#4
+
+
+2023-03-26 13:34:31,977 INFO receive config info: unknown#192.168.179.1:8848#1679808871977#4
+
+
+2023-03-26 13:34:46,982 INFO receive config info: unknown#192.168.179.1:8848#1679808886982#4
+
+
+2023-03-26 13:35:01,996 INFO receive config info: unknown#192.168.179.1:8848#1679808901996#4
+
+
+2023-03-26 13:35:03,968 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@living-commodity, value: {"cachedChecksum":"","instanceList":[]}
+
+2023-03-26 13:35:12,790 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@living-commodity, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.179.1#8888#DEFAULT#DEFAULT_GROUP@@living-commodity","ip":"192.168.179.1","ipDeleteTimeout":30000,"lastBeat":1679808912790,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8888,"serviceName":"DEFAULT_GROUP@@living-commodity","tenant":"","weight":1.0}]}
+
+2023-03-26 13:35:12,797 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@living-commodity, value: {"cachedChecksum":"","instanceList":[{"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.179.1#8888#DEFAULT#DEFAULT_GROUP@@living-commodity","ip":"192.168.179.1","ipDeleteTimeout":30000,"lastBeat":1679808912796,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8888,"serviceName":"DEFAULT_GROUP@@living-commodity","tenant":"","weight":1.0}]}
+
+2023-03-26 13:35:16,997 INFO receive config info: unknown#192.168.179.1:8848#1679808916997#4
+
+
+2023-03-26 13:35:31,999 INFO receive config info: unknown#192.168.179.1:8848#1679808931999#4
+
+
+2023-03-26 13:35:47,005 INFO receive config info: unknown#192.168.179.1:8848#1679808947005#4
+
+
+2023-03-26 13:36:02,011 INFO receive config info: unknown#192.168.179.1:8848#1679808962011#4
+
+
+2023-03-26 13:36:17,012 INFO receive config info: unknown#192.168.179.1:8848#1679808977012#4
+
+
+2023-03-26 13:36:32,026 INFO receive config info: unknown#192.168.179.1:8848#1679808992026#4
+
+
+2023-03-26 13:36:47,027 INFO receive config info: unknown#192.168.179.1:8848#1679809007027#4
+
+
+2023-03-26 13:37:02,035 INFO receive config info: unknown#192.168.179.1:8848#1679809022035#4
+
+
+2023-03-26 13:37:17,040 INFO receive config info: unknown#192.168.179.1:8848#1679809037040#4
+
+
+2023-03-26 13:37:32,061 INFO receive config info: unknown#192.168.179.1:8848#1679809052055#4
+
+
+2023-03-26 13:37:47,072 INFO receive config info: unknown#192.168.179.1:8848#1679809067072#4
+
+
+2023-03-26 13:38:02,083 INFO receive config info: unknown#192.168.179.1:8848#1679809082083#4
+
+
+2023-03-26 13:38:17,086 INFO receive config info: unknown#192.168.179.1:8848#1679809097085#4
+
+
+2023-03-26 13:38:32,095 INFO receive config info: unknown#192.168.179.1:8848#1679809112095#4
+
+
+2023-03-26 13:38:42,629 INFO creating empty service public:DEFAULT_GROUP@@renren-fast
+
+2023-03-26 13:38:42,630 INFO [NEW-SERVICE] {"appName":"","checksum":"c2e4f175c8f2eb1d041b196f1b2a32b9","clusterMap":{},"enabled":true,"groupName":"DEFAULT_GROUP","ipDeleteTimeout":30000,"lastModifiedMillis":1679809122630,"metadata":{},"name":"DEFAULT_GROUP@@renren-fast","namespaceId":"public","owners":[],"protectThreshold":0.0,"resetWeight":false,"selector":{"type":"none"},"token":""}
+
+2023-03-26 13:38:42,630 WARN cluster: DEFAULT not found, ip: {"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.179.1#8080#DEFAULT#DEFAULT_GROUP@@renren-fast","ip":"192.168.179.1","ipDeleteTimeout":30000,"lastBeat":1679809122629,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8080,"serviceName":"DEFAULT_GROUP@@renren-fast","tenant":"","weight":1.0}, will create new cluster with default configuration.
+
+2023-03-26 13:38:42,630 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@renren-fast, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.179.1#8080#DEFAULT#DEFAULT_GROUP@@renren-fast","ip":"192.168.179.1","ipDeleteTimeout":30000,"lastBeat":1679809122629,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8080,"serviceName":"DEFAULT_GROUP@@renren-fast","tenant":"","weight":1.0}]}
+
+2023-03-26 13:38:42,631 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@renren-fast, value: {"cachedChecksum":"","instanceList":[{"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.179.1#8080#DEFAULT#DEFAULT_GROUP@@renren-fast","ip":"192.168.179.1","ipDeleteTimeout":30000,"lastBeat":1679809122630,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8080,"serviceName":"DEFAULT_GROUP@@renren-fast","tenant":"","weight":1.0}]}
+
+2023-03-26 13:38:47,100 INFO receive config info: unknown#192.168.179.1:8848#1679809127100#4
+
+
+2023-03-26 13:39:02,102 INFO receive config info: unknown#192.168.179.1:8848#1679809142102#4
+
+
+2023-03-26 13:39:03,247 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@renren-fast, value: {"cachedChecksum":"","instanceList":[]}
+
+2023-03-26 13:39:03,280 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@living-gateway, value: {"cachedChecksum":"","instanceList":[]}
+
+2023-03-26 13:39:03,314 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@living-commodity, value: {"cachedChecksum":"","instanceList":[]}
+
+2023-03-26 13:39:03,346 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@living-service, value: {"cachedChecksum":"","instanceList":[]}
+
+2023-03-26 13:39:13,441 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@living-gateway, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.179.1#11111#DEFAULT#DEFAULT_GROUP@@living-gateway","ip":"192.168.179.1","ipDeleteTimeout":30000,"lastBeat":1679809153441,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":11111,"serviceName":"DEFAULT_GROUP@@living-gateway","tenant":"","weight":1.0}]}
+
+2023-03-26 13:39:13,442 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@living-gateway, value: {"cachedChecksum":"","instanceList":[{"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.179.1#11111#DEFAULT#DEFAULT_GROUP@@living-gateway","ip":"192.168.179.1","ipDeleteTimeout":30000,"lastBeat":1679809153441,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":11111,"serviceName":"DEFAULT_GROUP@@living-gateway","tenant":"","weight":1.0}]}
+
+2023-03-26 13:39:17,112 INFO receive config info: unknown#192.168.179.1:8848#1679809157112#4
+
+
+2023-03-26 13:39:17,764 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@living-service, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.179.1#9999#DEFAULT#DEFAULT_GROUP@@living-service","ip":"192.168.179.1","ipDeleteTimeout":30000,"lastBeat":1679809157763,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":9999,"serviceName":"DEFAULT_GROUP@@living-service","tenant":"","weight":1.0}]}
+
+2023-03-26 13:39:17,770 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@living-service, value: {"cachedChecksum":"","instanceList":[{"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.179.1#9999#DEFAULT#DEFAULT_GROUP@@living-service","ip":"192.168.179.1","ipDeleteTimeout":30000,"lastBeat":1679809157770,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":9999,"serviceName":"DEFAULT_GROUP@@living-service","tenant":"","weight":1.0}]}
+
+2023-03-26 13:39:26,938 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@living-commodity, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.179.1#8888#DEFAULT#DEFAULT_GROUP@@living-commodity","ip":"192.168.179.1","ipDeleteTimeout":30000,"lastBeat":1679809166938,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8888,"serviceName":"DEFAULT_GROUP@@living-commodity","tenant":"","weight":1.0}]}
+
+2023-03-26 13:39:26,944 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@living-commodity, value: {"cachedChecksum":"","instanceList":[{"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.179.1#8888#DEFAULT#DEFAULT_GROUP@@living-commodity","ip":"192.168.179.1","ipDeleteTimeout":30000,"lastBeat":1679809166944,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8888,"serviceName":"DEFAULT_GROUP@@living-commodity","tenant":"","weight":1.0}]}
+
+2023-03-26 13:39:27,511 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@renren-fast, value: {"cachedChecksum":"","instanceList":[{"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.179.1#8080#DEFAULT#DEFAULT_GROUP@@renren-fast","ip":"192.168.179.1","ipDeleteTimeout":30000,"lastBeat":1679809167511,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8080,"serviceName":"DEFAULT_GROUP@@renren-fast","tenant":"","weight":1.0}]}
+
+2023-03-26 13:39:27,511 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@renren-fast, value: {"cachedChecksum":"","instanceList":[{"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.179.1#8080#DEFAULT#DEFAULT_GROUP@@renren-fast","ip":"192.168.179.1","ipDeleteTimeout":30000,"lastBeat":1679809167511,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8080,"serviceName":"DEFAULT_GROUP@@renren-fast","tenant":"","weight":1.0}]}
+
+2023-03-26 13:39:32,126 INFO receive config info: unknown#192.168.179.1:8848#1679809172126#4
+
+
+2023-03-26 13:39:47,138 INFO receive config info: unknown#192.168.179.1:8848#1679809187138#4
+
+
+2023-03-26 13:40:02,150 INFO receive config info: unknown#192.168.179.1:8848#1679809202150#4
+
+
+2023-03-26 13:40:17,158 INFO receive config info: unknown#192.168.179.1:8848#1679809217158#4
+
+
+2023-03-26 13:40:32,165 INFO receive config info: unknown#192.168.179.1:8848#1679809232165#4
+
+
+2023-03-26 13:40:47,173 INFO receive config info: unknown#192.168.179.1:8848#1679809247173#4
+
+
+2023-03-26 13:41:02,178 INFO receive config info: unknown#192.168.179.1:8848#1679809262178#4
+
+
+2023-03-26 13:41:17,184 INFO receive config info: unknown#192.168.179.1:8848#1679809277184#4
+
+
+2023-03-26 13:41:32,195 INFO receive config info: unknown#192.168.179.1:8848#1679809292195#4
+
+
+2023-03-26 13:41:47,198 INFO receive config info: unknown#192.168.179.1:8848#1679809307198#4
+
+
+2023-03-26 13:42:02,203 INFO receive config info: unknown#192.168.179.1:8848#1679809322202#4
+
+
+2023-03-26 13:42:17,211 INFO receive config info: unknown#192.168.179.1:8848#1679809337211#4
+
+
+2023-03-26 13:42:32,226 INFO receive config info: unknown#192.168.179.1:8848#1679809352226#4
+
+
+2023-03-26 13:42:47,240 INFO receive config info: unknown#192.168.179.1:8848#1679809367240#4
+
+
+2023-03-26 13:43:02,243 INFO receive config info: unknown#192.168.179.1:8848#1679809382243#4
+
+
+2023-03-26 13:43:17,255 INFO receive config info: unknown#192.168.179.1:8848#1679809397255#4
+
+
+2023-03-26 13:43:32,258 INFO receive config info: unknown#192.168.179.1:8848#1679809412258#4
+
+
+2023-03-26 13:43:47,266 INFO receive config info: unknown#192.168.179.1:8848#1679809427266#4
+
+
+2023-03-26 13:44:02,268 INFO receive config info: unknown#192.168.179.1:8848#1679809442268#4
+
+
+2023-03-26 13:44:17,269 INFO receive config info: unknown#192.168.179.1:8848#1679809457269#4
+
+
+2023-03-26 13:44:32,271 INFO receive config info: unknown#192.168.179.1:8848#1679809472271#4
+
+
+2023-03-26 13:44:47,277 INFO receive config info: unknown#192.168.179.1:8848#1679809487277#4
+
+
+2023-03-26 13:45:02,280 INFO receive config info: unknown#192.168.179.1:8848#1679809502280#4
+
+
+2023-03-26 13:45:17,294 INFO receive config info: unknown#192.168.179.1:8848#1679809517294#4
+
+
+2023-03-26 13:45:32,305 INFO receive config info: unknown#192.168.179.1:8848#1679809532305#4
+
+
+2023-03-26 13:45:47,316 INFO receive config info: unknown#192.168.179.1:8848#1679809547316#4
+
+
+2023-03-26 13:46:02,330 INFO receive config info: unknown#192.168.179.1:8848#1679809562330#4
+
+
+2023-03-26 13:46:07,273 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@living-gateway, ip: {"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.179.1#11111#DEFAULT#DEFAULT_GROUP@@living-gateway","ip":"192.168.179.1","ipDeleteTimeout":30000,"lastBeat":1679809534475,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":11111,"serviceName":"DEFAULT_GROUP@@living-gateway","tenant":"","weight":1.0}
+
+2023-03-26 13:46:07,439 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@living-gateway, value: {"cachedChecksum":"","instanceList":[]}
+
+2023-03-26 13:46:08,379 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@renren-fast, ip: {"app":"","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.179.1#8080#DEFAULT#DEFAULT_GROUP@@renren-fast","ip":"192.168.179.1","ipDeleteTimeout":30000,"lastBeat":1679809537989,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8080,"serviceName":"DEFAULT_GROUP@@renren-fast","tenant":"","weight":1.0}
+
+2023-03-26 13:46:08,388 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@renren-fast, value: {"cachedChecksum":"","instanceList":[]}
+
+2023-03-26 13:46:09,581 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@living-service, ip: {"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.179.1#9999#DEFAULT#DEFAULT_GROUP@@living-service","ip":"192.168.179.1","ipDeleteTimeout":30000,"lastBeat":1679809538652,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":9999,"serviceName":"DEFAULT_GROUP@@living-service","tenant":"","weight":1.0}
+
+2023-03-26 13:46:09,585 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@living-service, value: {"cachedChecksum":"","instanceList":[]}
+
+2023-03-26 13:46:12,401 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@living-commodity, ip: {"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceId":"192.168.179.1#8888#DEFAULT#DEFAULT_GROUP@@living-commodity","ip":"192.168.179.1","ipDeleteTimeout":30000,"lastBeat":1679809537920,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8888,"serviceName":"DEFAULT_GROUP@@living-commodity","tenant":"","weight":1.0}
+
+2023-03-26 13:46:12,404 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@living-commodity, value: {"cachedChecksum":"","instanceList":[]}
+
+2023-03-26 13:46:17,339 INFO receive config info: unknown#192.168.179.1:8848#1679809577339#4
+
+
+2023-03-26 13:46:32,355 INFO receive config info: unknown#192.168.179.1:8848#1679809592355#4
+
+
+2023-03-26 13:46:47,358 INFO receive config info: unknown#192.168.179.1:8848#1679809607358#4
+
+
+2023-03-26 13:47:02,372 INFO receive config info: unknown#192.168.179.1:8848#1679809622372#4
+
+
+2023-03-26 13:47:17,381 INFO receive config info: unknown#192.168.179.1:8848#1679809637380#4
+
+
+2023-03-26 13:47:32,391 INFO receive config info: unknown#192.168.179.1:8848#1679809652391#4
+
+
+2023-03-26 13:47:47,399 INFO receive config info: unknown#192.168.179.1:8848#1679809667399#4
+
+
+2023-03-26 13:48:02,408 INFO receive config info: unknown#192.168.179.1:8848#1679809682408#4
+
+
+2023-03-26 13:48:17,409 INFO receive config info: unknown#192.168.179.1:8848#1679809697409#4
+
+
+2023-03-26 13:48:32,414 INFO receive config info: unknown#192.168.179.1:8848#1679809712414#4
+
+
+2023-03-26 13:48:47,422 INFO receive config info: unknown#192.168.179.1:8848#1679809727422#4
+
+
+2023-03-26 13:49:02,430 INFO receive config info: unknown#192.168.179.1:8848#1679809742430#4
+
+
+2023-03-26 13:49:17,443 INFO receive config info: unknown#192.168.179.1:8848#1679809757443#4
+
+
+2023-03-26 13:49:32,444 INFO receive config info: unknown#192.168.179.1:8848#1679809772444#4
+
+
+2023-03-26 13:49:47,446 INFO receive config info: unknown#192.168.179.1:8848#1679809787446#4
+
+
+2023-03-26 13:50:02,448 INFO receive config info: unknown#192.168.179.1:8848#1679809802448#4
+
+
+2023-03-26 13:50:17,458 INFO receive config info: unknown#192.168.179.1:8848#1679809817458#4
+
+
+2023-03-26 13:50:32,461 INFO receive config info: unknown#192.168.179.1:8848#1679809832461#4
+
+
+2023-03-26 13:50:47,465 INFO receive config info: unknown#192.168.179.1:8848#1679809847465#4
+
+
+2023-03-26 13:51:02,478 INFO receive config info: unknown#192.168.179.1:8848#1679809862478#4
+
+
+2023-03-26 13:51:17,480 INFO receive config info: unknown#192.168.179.1:8848#1679809877480#4
+
+
+2023-03-26 13:51:32,480 INFO receive config info: unknown#192.168.179.1:8848#1679809892480#4
+
+
+2023-03-26 13:51:47,491 INFO receive config info: unknown#192.168.179.1:8848#1679809907491#4
+
+
+2023-03-26 13:52:02,507 INFO receive config info: unknown#192.168.179.1:8848#1679809922507#4
+
+
+2023-03-26 13:52:17,514 INFO receive config info: unknown#192.168.179.1:8848#1679809937514#4
+
+
+2023-03-26 13:52:32,529 INFO receive config info: unknown#192.168.179.1:8848#1679809952529#4
+
+
+2023-03-26 13:52:47,535 INFO receive config info: unknown#192.168.179.1:8848#1679809967535#4
+
+
+2023-03-26 13:53:02,542 INFO receive config info: unknown#192.168.179.1:8848#1679809982542#4
+
+
+2023-03-26 13:53:17,545 INFO receive config info: unknown#192.168.179.1:8848#1679809997545#4
+
+
+2023-03-26 13:53:32,551 INFO receive config info: unknown#192.168.179.1:8848#1679810012551#4
+
+
+2023-03-26 13:53:47,563 INFO receive config info: unknown#192.168.179.1:8848#1679810027563#4
+
+
+2023-03-26 13:54:02,565 INFO receive config info: unknown#192.168.179.1:8848#1679810042565#4
+
+
+2023-03-26 13:54:17,581 INFO receive config info: unknown#192.168.179.1:8848#1679810057581#4
+
+
+2023-03-26 13:54:32,582 INFO receive config info: unknown#192.168.179.1:8848#1679810072582#4
+
+
+2023-03-26 13:54:47,583 INFO receive config info: unknown#192.168.179.1:8848#1679810087583#4
+
+
+2023-03-26 13:55:02,593 INFO receive config info: unknown#192.168.179.1:8848#1679810102593#4
+
+
+2023-03-26 13:55:17,609 INFO receive config info: unknown#192.168.179.1:8848#1679810117609#4
+
+
+2023-03-26 13:55:32,615 INFO receive config info: unknown#192.168.179.1:8848#1679810132615#4
+
+
+2023-03-26 13:55:47,622 INFO receive config info: unknown#192.168.179.1:8848#1679810147622#4
+
+
+2023-03-26 13:56:02,628 INFO receive config info: unknown#192.168.179.1:8848#1679810162628#4
+
+
+2023-03-26 13:56:17,639 INFO receive config info: unknown#192.168.179.1:8848#1679810177639#4
+
+
+2023-03-26 13:56:32,649 INFO receive config info: unknown#192.168.179.1:8848#1679810192649#4
+
+
+2023-03-26 13:56:47,662 INFO receive config info: unknown#192.168.179.1:8848#1679810207662#4
+
+
+2023-03-26 13:57:02,673 INFO receive config info: unknown#192.168.179.1:8848#1679810222673#4
+
+
+2023-03-26 13:57:17,678 INFO receive config info: unknown#192.168.179.1:8848#1679810237678#4
+
+
+2023-03-26 13:57:32,681 INFO receive config info: unknown#192.168.179.1:8848#1679810252681#4
+
+
+2023-03-26 13:57:47,686 INFO receive config info: unknown#192.168.179.1:8848#1679810267686#4
+
+
+2023-03-26 13:58:02,696 INFO receive config info: unknown#192.168.179.1:8848#1679810282695#4
+
+
+2023-03-26 13:58:17,697 INFO receive config info: unknown#192.168.179.1:8848#1679810297697#4
+
+
+2023-03-26 13:58:32,703 INFO receive config info: unknown#192.168.179.1:8848#1679810312703#4
+
+
+2023-03-26 13:58:47,713 INFO receive config info: unknown#192.168.179.1:8848#1679810327713#4
+
+
+2023-03-26 13:59:02,720 INFO receive config info: unknown#192.168.179.1:8848#1679810342720#4
+
+
+2023-03-26 13:59:17,736 INFO receive config info: unknown#192.168.179.1:8848#1679810357736#4
+
+
+2023-03-26 13:59:32,745 INFO receive config info: unknown#192.168.179.1:8848#1679810372745#4
+
+
+2023-03-26 13:59:47,752 INFO receive config info: unknown#192.168.179.1:8848#1679810387752#4
+
+
+2023-03-26 14:00:02,756 INFO receive config info: unknown#192.168.179.1:8848#1679810402756#4
+
+
+2023-03-26 14:00:17,761 INFO receive config info: unknown#192.168.179.1:8848#1679810417761#4
+
+
+2023-03-26 14:00:32,771 INFO receive config info: unknown#192.168.179.1:8848#1679810432771#4
+
+
+2023-03-26 14:00:47,773 INFO receive config info: unknown#192.168.179.1:8848#1679810447773#4
+
+
+2023-03-26 14:01:02,785 INFO receive config info: unknown#192.168.179.1:8848#1679810462785#4
+
+
+2023-03-26 14:01:17,792 INFO receive config info: unknown#192.168.179.1:8848#1679810477792#4
+
+
+2023-03-26 14:01:32,866 INFO receive config info: unknown#192.168.179.1:8848#1679810492866#4
+
+
+2023-03-26 14:01:47,867 INFO receive config info: unknown#192.168.179.1:8848#1679810507867#4
+
+
+2023-03-26 14:02:02,882 INFO receive config info: unknown#192.168.179.1:8848#1679810522882#4
+
+
+2023-03-26 14:02:17,883 INFO receive config info: unknown#192.168.179.1:8848#1679810537883#4
+
+
+2023-03-26 14:02:32,901 INFO receive config info: unknown#192.168.179.1:8848#1679810552901#4
+
+
+2023-03-26 14:02:47,903 INFO receive config info: unknown#192.168.179.1:8848#1679810567903#4
+
+
+2023-03-26 14:03:02,911 INFO receive config info: unknown#192.168.179.1:8848#1679810582911#4
+
+
+2023-03-26 14:03:17,917 INFO receive config info: unknown#192.168.179.1:8848#1679810597917#4
+
+
+2023-03-26 14:03:32,931 INFO receive config info: unknown#192.168.179.1:8848#1679810612931#4
+
+
+2023-03-26 14:03:47,937 INFO receive config info: unknown#192.168.179.1:8848#1679810627937#4
+
+
+2023-03-26 14:04:02,949 INFO receive config info: unknown#192.168.179.1:8848#1679810642949#4
+
+
+2023-03-26 14:04:17,954 INFO receive config info: unknown#192.168.179.1:8848#1679810657954#4
+
+
+2023-03-26 14:04:32,960 INFO receive config info: unknown#192.168.179.1:8848#1679810672960#4
+
+
+2023-03-26 14:04:47,962 INFO receive config info: unknown#192.168.179.1:8848#1679810687962#4
+
+
+2023-03-26 14:05:02,970 INFO receive config info: unknown#192.168.179.1:8848#1679810702970#4
+
+
+2023-03-26 14:05:17,977 INFO receive config info: unknown#192.168.179.1:8848#1679810717977#4
+
+
+2023-03-26 14:05:32,978 INFO receive config info: unknown#192.168.179.1:8848#1679810732978#4
+
+
+2023-03-26 14:05:47,992 INFO receive config info: unknown#192.168.179.1:8848#1679810747992#4
+
+
+2023-03-26 14:06:02,999 INFO receive config info: unknown#192.168.179.1:8848#1679810762999#4
+
+
+2023-03-26 14:06:18,012 INFO receive config info: unknown#192.168.179.1:8848#1679810778012#4
+
+
+2023-03-26 14:06:33,016 INFO receive config info: unknown#192.168.179.1:8848#1679810793016#4
+
+
+2023-03-26 14:06:48,023 INFO receive config info: unknown#192.168.179.1:8848#1679810808023#4
+
+
+2023-03-26 14:07:03,027 INFO receive config info: unknown#192.168.179.1:8848#1679810823027#4
+
+
+2023-03-26 14:07:18,033 INFO receive config info: unknown#192.168.179.1:8848#1679810838033#4
+
+
+2023-03-26 14:07:33,035 INFO receive config info: unknown#192.168.179.1:8848#1679810853035#4
+
+
+2023-03-26 14:07:48,049 INFO receive config info: unknown#192.168.179.1:8848#1679810868049#4
+
+
+2023-03-26 14:08:03,054 INFO receive config info: unknown#192.168.179.1:8848#1679810883054#4
+
+
+2023-03-26 14:08:18,056 INFO receive config info: unknown#192.168.179.1:8848#1679810898056#4
+
+
+2023-03-26 14:08:33,066 INFO receive config info: unknown#192.168.179.1:8848#1679810913066#4
+
+
+2023-03-26 14:08:48,081 INFO receive config info: unknown#192.168.179.1:8848#1679810928081#4
+
+
+2023-03-26 14:09:03,094 INFO receive config info: unknown#192.168.179.1:8848#1679810943094#4
+
+
+2023-03-26 14:09:18,099 INFO receive config info: unknown#192.168.179.1:8848#1679810958099#4
+
+
+2023-03-26 14:09:33,104 INFO receive config info: unknown#192.168.179.1:8848#1679810973104#4
+
+
+2023-03-26 14:09:48,105 INFO receive config info: unknown#192.168.179.1:8848#1679810988105#4
+
+
+2023-03-26 14:10:03,245 INFO receive config info: unknown#192.168.179.1:8848#1679811003245#4
+
+
+2023-03-26 14:10:18,253 INFO receive config info: unknown#192.168.179.1:8848#1679811018253#4
+
+
+2023-03-26 14:10:33,262 INFO receive config info: unknown#192.168.179.1:8848#1679811033262#4
+
+
+2023-03-26 14:10:48,262 INFO receive config info: unknown#192.168.179.1:8848#1679811048262#4
+
+
+2023-03-26 14:11:03,276 INFO receive config info: unknown#192.168.179.1:8848#1679811063276#4
+
+
+2023-03-26 14:11:18,278 INFO receive config info: unknown#192.168.179.1:8848#1679811078278#4
+
+
+2023-03-26 14:11:33,288 INFO receive config info: unknown#192.168.179.1:8848#1679811093288#4
+
+
+2023-03-26 14:11:48,300 INFO receive config info: unknown#192.168.179.1:8848#1679811108300#4
+
+
+2023-03-26 14:12:03,302 INFO receive config info: unknown#192.168.179.1:8848#1679811123302#4
+
+
+2023-03-26 14:12:18,316 INFO receive config info: unknown#192.168.179.1:8848#1679811138316#4
+
+
+2023-03-26 14:12:33,322 INFO receive config info: unknown#192.168.179.1:8848#1679811153322#4
+
+
+2023-03-26 14:12:48,324 INFO receive config info: unknown#192.168.179.1:8848#1679811168324#4
+
+
+2023-03-26 14:13:03,331 INFO receive config info: unknown#192.168.179.1:8848#1679811183331#4
+
+
+2023-03-26 14:13:18,344 INFO receive config info: unknown#192.168.179.1:8848#1679811198344#4
+
+
+2023-03-26 14:13:33,349 INFO receive config info: unknown#192.168.179.1:8848#1679811213349#4
+
+
+2023-03-26 14:13:48,358 INFO receive config info: unknown#192.168.179.1:8848#1679811228358#4
+
+
+2023-03-26 14:14:03,366 INFO receive config info: unknown#192.168.179.1:8848#1679811243366#4
+
+
+2023-03-26 14:14:18,382 INFO receive config info: unknown#192.168.179.1:8848#1679811258382#4
+
+
+2023-03-26 14:14:33,383 INFO receive config info: unknown#192.168.179.1:8848#1679811273383#4
+
+
+2023-03-26 14:14:48,398 INFO receive config info: unknown#192.168.179.1:8848#1679811288398#4
+
+
+2023-03-26 14:15:03,403 INFO receive config info: unknown#192.168.179.1:8848#1679811303403#4
+
+
+2023-03-26 14:15:18,412 INFO receive config info: unknown#192.168.179.1:8848#1679811318412#4
+
+
+2023-03-26 14:15:33,416 INFO receive config info: unknown#192.168.179.1:8848#1679811333416#4
+
+
+2023-03-26 14:15:48,425 INFO receive config info: unknown#192.168.179.1:8848#1679811348425#4
+
+
+2023-03-26 14:16:03,435 INFO receive config info: unknown#192.168.179.1:8848#1679811363435#4
+
+
+2023-03-26 14:16:18,443 INFO receive config info: unknown#192.168.179.1:8848#1679811378443#4
+
+
+2023-03-26 14:16:33,451 INFO receive config info: unknown#192.168.179.1:8848#1679811393451#4
+
+
+2023-03-26 14:16:48,453 INFO receive config info: unknown#192.168.179.1:8848#1679811408453#4
+
+
+2023-03-26 14:17:03,459 INFO receive config info: unknown#192.168.179.1:8848#1679811423459#4
+
+
+2023-03-26 14:17:18,468 INFO receive config info: unknown#192.168.179.1:8848#1679811438468#4
+
+
+2023-03-26 14:17:33,482 INFO receive config info: unknown#192.168.179.1:8848#1679811453482#4
+
+
+2023-03-26 14:17:48,485 INFO receive config info: unknown#192.168.179.1:8848#1679811468485#4
+
+
+2023-03-26 14:18:03,495 INFO receive config info: unknown#192.168.179.1:8848#1679811483495#4
+
+
+2023-03-26 14:18:18,501 INFO receive config info: unknown#192.168.179.1:8848#1679811498501#4
+
+
+2023-03-26 14:18:33,509 INFO receive config info: unknown#192.168.179.1:8848#1679811513509#4
+
+
+2023-03-26 14:18:48,518 INFO receive config info: unknown#192.168.179.1:8848#1679811528518#4
+
+
+2023-03-26 14:19:03,524 INFO receive config info: unknown#192.168.179.1:8848#1679811543524#4
+
+
+2023-03-26 14:19:18,537 INFO receive config info: unknown#192.168.179.1:8848#1679811558537#4
+
+
+2023-03-26 14:19:33,542 INFO receive config info: unknown#192.168.179.1:8848#1679811573542#4
+
+
+2023-03-26 14:19:48,553 INFO receive config info: unknown#192.168.179.1:8848#1679811588553#4
+
+
+2023-03-26 14:20:03,554 INFO receive config info: unknown#192.168.179.1:8848#1679811603554#4
+
+
+2023-03-26 14:20:18,575 INFO receive config info: unknown#192.168.179.1:8848#1679811618575#4
+
+
+2023-03-26 14:20:33,581 INFO receive config info: unknown#192.168.179.1:8848#1679811633581#4
+
+
+2023-03-26 14:20:48,585 INFO receive config info: unknown#192.168.179.1:8848#1679811648585#4
+
+
+2023-03-26 14:21:03,590 INFO receive config info: unknown#192.168.179.1:8848#1679811663590#4
+
+
+2023-03-26 14:21:18,605 INFO receive config info: unknown#192.168.179.1:8848#1679811678605#4
+
+
+2023-03-26 14:21:33,618 INFO receive config info: unknown#192.168.179.1:8848#1679811693618#4
+
+
+2023-03-26 14:21:48,622 INFO receive config info: unknown#192.168.179.1:8848#1679811708622#4
+
+
+2023-03-26 14:22:03,636 INFO receive config info: unknown#192.168.179.1:8848#1679811723636#4
+
+
+2023-03-26 14:22:18,638 INFO receive config info: unknown#192.168.179.1:8848#1679811738638#4
+
+
+2023-03-26 14:22:33,653 INFO receive config info: unknown#192.168.179.1:8848#1679811753653#4
+
+
+2023-03-26 14:22:48,660 INFO receive config info: unknown#192.168.179.1:8848#1679811768660#4
+
+
+2023-03-26 14:23:03,674 INFO receive config info: unknown#192.168.179.1:8848#1679811783674#4
+
+
+2023-03-26 14:23:18,683 INFO receive config info: unknown#192.168.179.1:8848#1679811798683#4
+
+
+2023-03-26 14:23:33,691 INFO receive config info: unknown#192.168.179.1:8848#1679811813691#4
+
+
+2023-03-26 14:23:48,702 INFO receive config info: unknown#192.168.179.1:8848#1679811828702#4
+
+
+2023-03-26 14:24:03,703 INFO receive config info: unknown#192.168.179.1:8848#1679811843703#4
+
+
+2023-03-26 14:24:18,715 INFO receive config info: unknown#192.168.179.1:8848#1679811858715#4
+
+
+2023-03-26 14:24:33,717 INFO receive config info: unknown#192.168.179.1:8848#1679811873717#4
+
+
+2023-03-26 14:24:48,731 INFO receive config info: unknown#192.168.179.1:8848#1679811888731#4
+
+
+2023-03-26 14:25:03,746 INFO receive config info: unknown#192.168.179.1:8848#1679811903746#4
+
+
+2023-03-26 14:25:18,752 INFO receive config info: unknown#192.168.179.1:8848#1679811918752#4
+
+
+2023-03-26 14:25:33,754 INFO receive config info: unknown#192.168.179.1:8848#1679811933754#4
+
+
+2023-03-26 14:25:48,756 INFO receive config info: unknown#192.168.179.1:8848#1679811948756#4
+
+
+2023-03-26 14:26:03,771 INFO receive config info: unknown#192.168.179.1:8848#1679811963771#4
+
+
+2023-03-26 14:26:18,780 INFO receive config info: unknown#192.168.179.1:8848#1679811978780#4
+
+
+2023-03-26 14:26:33,789 INFO receive config info: unknown#192.168.179.1:8848#1679811993789#4
+
+
+2023-03-26 14:26:48,802 INFO receive config info: unknown#192.168.179.1:8848#1679812008802#4
+
+
+2023-03-26 14:27:03,813 INFO receive config info: unknown#192.168.179.1:8848#1679812023813#4
+
+
+2023-03-26 14:27:18,823 INFO receive config info: unknown#192.168.179.1:8848#1679812038823#4
+
+
+2023-03-26 14:27:33,827 INFO receive config info: unknown#192.168.179.1:8848#1679812053827#4
+
+
+2023-03-26 14:27:48,828 INFO receive config info: unknown#192.168.179.1:8848#1679812068828#4
+
+
+2023-03-26 14:28:03,829 INFO receive config info: unknown#192.168.179.1:8848#1679812083829#4
+
+
+2023-03-26 14:28:18,838 INFO receive config info: unknown#192.168.179.1:8848#1679812098838#4
+
+
+2023-03-26 14:28:33,846 INFO receive config info: unknown#192.168.179.1:8848#1679812113846#4
+
+
+2023-03-26 14:28:48,855 INFO receive config info: unknown#192.168.179.1:8848#1679812128855#4
+
+
+2023-03-26 14:29:03,858 INFO receive config info: unknown#192.168.179.1:8848#1679812143858#4
+
+
+2023-03-26 14:29:18,860 INFO receive config info: unknown#192.168.179.1:8848#1679812158860#4
+
+
+2023-03-26 14:29:33,865 INFO receive config info: unknown#192.168.179.1:8848#1679812173865#4
+
+
+2023-03-26 14:29:48,873 INFO receive config info: unknown#192.168.179.1:8848#1679812188873#4
+
+
+2023-03-26 14:30:03,889 INFO receive config info: unknown#192.168.179.1:8848#1679812203889#4
+
+
+2023-03-26 14:30:18,895 INFO receive config info: unknown#192.168.179.1:8848#1679812218895#4
+
+
+2023-03-26 14:30:33,904 INFO receive config info: unknown#192.168.179.1:8848#1679812233904#4
+
+
+2023-03-26 14:30:48,911 INFO receive config info: unknown#192.168.179.1:8848#1679812248911#4
+
+
+2023-03-26 14:31:03,913 INFO receive config info: unknown#192.168.179.1:8848#1679812263913#4
+
+
+2023-03-26 14:31:18,920 INFO receive config info: unknown#192.168.179.1:8848#1679812278920#4
+
+
+2023-03-26 14:31:33,922 INFO receive config info: unknown#192.168.179.1:8848#1679812293922#4
+
+
+2023-03-26 14:31:48,926 INFO receive config info: unknown#192.168.179.1:8848#1679812308926#4
+
+
+2023-03-26 14:32:03,937 INFO receive config info: unknown#192.168.179.1:8848#1679812323937#4
+
+
+2023-03-26 14:32:18,940 INFO receive config info: unknown#192.168.179.1:8848#1679812338940#4
+
+
+2023-03-26 14:32:33,954 INFO receive config info: unknown#192.168.179.1:8848#1679812353954#4
+
+
+2023-03-26 14:32:48,965 INFO receive config info: unknown#192.168.179.1:8848#1679812368965#4
+
+
+2023-03-26 14:33:03,976 INFO receive config info: unknown#192.168.179.1:8848#1679812383976#4
+
+
+2023-03-26 14:33:18,976 INFO receive config info: unknown#192.168.179.1:8848#1679812398976#4
+
+
+2023-03-26 14:33:33,977 INFO receive config info: unknown#192.168.179.1:8848#1679812413977#4
+
+
+2023-03-26 14:33:48,986 INFO receive config info: unknown#192.168.179.1:8848#1679812428986#4
+
+
+2023-03-26 14:34:03,986 INFO receive config info: unknown#192.168.179.1:8848#1679812443986#4
+
+
+2023-03-26 14:34:18,993 INFO receive config info: unknown#192.168.179.1:8848#1679812458993#4
+
+
+2023-03-26 14:34:34,006 INFO receive config info: unknown#192.168.179.1:8848#1679812474006#4
+
+
+2023-03-26 14:34:49,020 INFO receive config info: unknown#192.168.179.1:8848#1679812489020#4
+
+
+2023-03-26 14:35:04,021 INFO receive config info: unknown#192.168.179.1:8848#1679812504021#4
+
+
+2023-03-26 14:35:19,026 INFO receive config info: unknown#192.168.179.1:8848#1679812519026#4
+
+
+2023-03-26 14:35:34,041 INFO receive config info: unknown#192.168.179.1:8848#1679812534041#4
+
+
+2023-03-26 14:35:49,047 INFO receive config info: unknown#192.168.179.1:8848#1679812549047#4
+
+
+2023-03-26 14:36:04,061 INFO receive config info: unknown#192.168.179.1:8848#1679812564061#4
+
+
+2023-03-26 14:36:19,065 INFO receive config info: unknown#192.168.179.1:8848#1679812579065#4
+
+
+2023-03-26 14:36:34,071 INFO receive config info: unknown#192.168.179.1:8848#1679812594071#4
+
+
+2023-03-26 14:36:49,085 INFO receive config info: unknown#192.168.179.1:8848#1679812609085#4
+
+
+2023-03-26 14:37:04,098 INFO receive config info: unknown#192.168.179.1:8848#1679812624098#4
+
+
+2023-03-26 14:37:19,109 INFO receive config info: unknown#192.168.179.1:8848#1679812639109#4
+
+
+2023-03-26 14:37:34,114 INFO receive config info: unknown#192.168.179.1:8848#1679812654114#4
+
+
+2023-03-26 14:37:49,119 INFO receive config info: unknown#192.168.179.1:8848#1679812669119#4
+
+
+2023-03-26 14:38:04,126 INFO receive config info: unknown#192.168.179.1:8848#1679812684126#4
+
+
+2023-03-26 14:38:19,133 INFO receive config info: unknown#192.168.179.1:8848#1679812699133#4
+
+
+2023-03-26 14:38:34,142 INFO receive config info: unknown#192.168.179.1:8848#1679812714142#4
+
+
+2023-03-26 14:38:49,151 INFO receive config info: unknown#192.168.179.1:8848#1679812729151#4
+
+
+2023-03-26 14:39:04,152 INFO receive config info: unknown#192.168.179.1:8848#1679812744152#4
+
+
+2023-03-26 14:39:19,159 INFO receive config info: unknown#192.168.179.1:8848#1679812759159#4
+
+
+2023-03-26 14:39:34,163 INFO receive config info: unknown#192.168.179.1:8848#1679812774163#4
+
+
+2023-03-26 14:39:49,169 INFO receive config info: unknown#192.168.179.1:8848#1679812789169#4
+
+
+2023-03-26 14:40:04,171 INFO receive config info: unknown#192.168.179.1:8848#1679812804171#4
+
+
+2023-03-26 14:40:19,176 INFO receive config info: unknown#192.168.179.1:8848#1679812819176#4
+
+
+2023-03-26 14:40:34,177 INFO receive config info: unknown#192.168.179.1:8848#1679812834177#4
+
+
+2023-03-26 14:40:49,189 INFO receive config info: unknown#192.168.179.1:8848#1679812849189#4
+
+
+2023-03-26 14:41:04,190 INFO receive config info: unknown#192.168.179.1:8848#1679812864190#4
+
+
+2023-03-26 14:41:19,197 INFO receive config info: unknown#192.168.179.1:8848#1679812879197#4
+
+
+2023-03-26 14:41:34,211 INFO receive config info: unknown#192.168.179.1:8848#1679812894211#4
+
+
+2023-03-26 14:41:49,217 INFO receive config info: unknown#192.168.179.1:8848#1679812909217#4
+
+
+2023-03-26 14:42:04,227 INFO receive config info: unknown#192.168.179.1:8848#1679812924227#4
+
+
+2023-03-26 14:42:19,228 INFO receive config info: unknown#192.168.179.1:8848#1679812939228#4
+
+
+2023-03-26 14:42:34,237 INFO receive config info: unknown#192.168.179.1:8848#1679812954237#4
+
+
+2023-03-26 14:42:49,251 INFO receive config info: unknown#192.168.179.1:8848#1679812969251#4
+
+
+2023-03-26 14:43:04,265 INFO receive config info: unknown#192.168.179.1:8848#1679812984265#4
+
+
+2023-03-26 14:43:19,266 INFO receive config info: unknown#192.168.179.1:8848#1679812999266#4
+
+
+2023-03-26 14:43:34,271 INFO receive config info: unknown#192.168.179.1:8848#1679813014271#4
+
+
+2023-03-26 14:43:49,278 INFO receive config info: unknown#192.168.179.1:8848#1679813029278#4
+
+
+2023-03-26 14:44:04,279 INFO receive config info: unknown#192.168.179.1:8848#1679813044279#4
+
+
+2023-03-26 14:44:19,286 INFO receive config info: unknown#192.168.179.1:8848#1679813059286#4
+
+
+2023-03-26 14:44:34,292 INFO receive config info: unknown#192.168.179.1:8848#1679813074292#4
+
+
+2023-03-26 14:44:49,307 INFO receive config info: unknown#192.168.179.1:8848#1679813089307#4
+
+
+2023-03-26 14:45:04,323 INFO receive config info: unknown#192.168.179.1:8848#1679813104323#4
+
+
+2023-03-26 14:45:19,329 INFO receive config info: unknown#192.168.179.1:8848#1679813119329#4
+
+
+2023-03-26 14:45:34,343 INFO receive config info: unknown#192.168.179.1:8848#1679813134343#4
+
+
+2023-03-26 14:45:49,347 INFO receive config info: unknown#192.168.179.1:8848#1679813149347#4
+
+
+2023-03-26 14:46:04,357 INFO receive config info: unknown#192.168.179.1:8848#1679813164357#4
+
+
+2023-03-26 14:46:19,364 INFO receive config info: unknown#192.168.179.1:8848#1679813179364#4
+
+
+2023-03-26 14:46:34,370 INFO receive config info: unknown#192.168.179.1:8848#1679813194370#4
+
+
+2023-03-26 14:46:49,375 INFO receive config info: unknown#192.168.179.1:8848#1679813209375#4
+
+
+2023-03-26 14:47:04,386 INFO receive config info: unknown#192.168.179.1:8848#1679813224386#4
+
+
+2023-03-26 14:47:19,388 INFO receive config info: unknown#192.168.179.1:8848#1679813239388#4
+
+
+2023-03-26 14:47:34,395 INFO receive config info: unknown#192.168.179.1:8848#1679813254395#4
+
+
+2023-03-26 14:47:49,402 INFO receive config info: unknown#192.168.179.1:8848#1679813269402#4
+
+
+2023-03-26 14:48:04,411 INFO receive config info: unknown#192.168.179.1:8848#1679813284411#4
+
+
+2023-03-26 14:48:19,415 INFO receive config info: unknown#192.168.179.1:8848#1679813299415#4
+
+
+2023-03-26 14:48:34,418 INFO receive config info: unknown#192.168.179.1:8848#1679813314418#4
+
+
+2023-03-26 14:48:49,419 INFO receive config info: unknown#192.168.179.1:8848#1679813329419#4
+
+
+2023-03-26 14:49:04,433 INFO receive config info: unknown#192.168.179.1:8848#1679813344433#4
+
+
+2023-03-26 14:49:19,445 INFO receive config info: unknown#192.168.179.1:8848#1679813359445#4
+
+
+2023-03-26 14:49:34,458 INFO receive config info: unknown#192.168.179.1:8848#1679813374458#4
+
+
+2023-03-26 14:49:49,464 INFO receive config info: unknown#192.168.179.1:8848#1679813389464#4
+
+
+2023-03-26 14:50:04,477 INFO receive config info: unknown#192.168.179.1:8848#1679813404477#4
+
+
+2023-03-26 14:50:19,479 INFO receive config info: unknown#192.168.179.1:8848#1679813419479#4
+
+
+2023-03-26 14:50:34,482 INFO receive config info: unknown#192.168.179.1:8848#1679813434482#4
+
+
+2023-03-26 14:50:49,486 INFO receive config info: unknown#192.168.179.1:8848#1679813449486#4
+
+
+2023-03-26 14:51:04,496 INFO receive config info: unknown#192.168.179.1:8848#1679813464496#4
+
+
+2023-03-26 14:51:19,505 INFO receive config info: unknown#192.168.179.1:8848#1679813479505#4
+
+
+2023-03-26 14:51:34,517 INFO receive config info: unknown#192.168.179.1:8848#1679813494517#4
+
+
+2023-03-26 14:51:49,518 INFO receive config info: unknown#192.168.179.1:8848#1679813509518#4
+
+
+2023-03-26 14:52:04,523 INFO receive config info: unknown#192.168.179.1:8848#1679813524523#4
+
+
+2023-03-26 14:52:19,536 INFO receive config info: unknown#192.168.179.1:8848#1679813539536#4
+
+
+2023-03-26 14:52:34,545 INFO receive config info: unknown#192.168.179.1:8848#1679813554545#4
+
+
+2023-03-26 14:52:49,552 INFO receive config info: unknown#192.168.179.1:8848#1679813569552#4
+
+
+2023-03-26 14:53:04,556 INFO receive config info: unknown#192.168.179.1:8848#1679813584556#4
+
+
+2023-03-26 14:53:19,561 INFO receive config info: unknown#192.168.179.1:8848#1679813599561#4
+
+
+2023-03-26 14:53:34,569 INFO receive config info: unknown#192.168.179.1:8848#1679813614569#4
+
+
+2023-03-26 14:53:49,571 INFO receive config info: unknown#192.168.179.1:8848#1679813629571#4
+
+
+2023-03-26 14:54:04,580 INFO receive config info: unknown#192.168.179.1:8848#1679813644580#4
+
+
+2023-03-26 14:54:19,580 INFO receive config info: unknown#192.168.179.1:8848#1679813659580#4
+
+
+2023-03-26 14:54:34,591 INFO receive config info: unknown#192.168.179.1:8848#1679813674591#4
+
+
+2023-03-26 14:54:49,592 INFO receive config info: unknown#192.168.179.1:8848#1679813689592#4
+
+
+2023-03-26 14:55:04,605 INFO receive config info: unknown#192.168.179.1:8848#1679813704605#4
+
+
+2023-03-26 14:55:19,613 INFO receive config info: unknown#192.168.179.1:8848#1679813719613#4
+
+
+2023-03-26 14:55:34,627 INFO receive config info: unknown#192.168.179.1:8848#1679813734627#4
+
+

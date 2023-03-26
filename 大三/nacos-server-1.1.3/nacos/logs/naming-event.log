@@ -1,0 +1,92 @@
+2023-03-26 13:31:45,996 INFO DEFAULT_GROUP@@living-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:11111:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-26 13:31:46,002 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-gateway, ips: 192.168.179.1:11111_true,
+
+2023-03-26 13:31:46,040 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-26 13:31:46,040 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-26 13:31:48,149 INFO DEFAULT_GROUP@@living-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:9999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-26 13:31:48,149 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-service, ips: 192.168.179.1:9999_true,
+
+2023-03-26 13:35:03,968 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-26 13:35:03,968 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-26 13:35:12,790 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-26 13:35:12,790 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-26 13:35:12,797 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-26 13:38:42,630 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-26 13:38:42,630 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.179.1:8080_true,
+
+2023-03-26 13:38:42,631 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.179.1:8080_true,
+
+2023-03-26 13:39:03,247 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-26 13:39:03,247 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 
+
+2023-03-26 13:39:03,280 INFO DEFAULT_GROUP@@living-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:11111:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-26 13:39:03,280 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-gateway, ips: 
+
+2023-03-26 13:39:03,315 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-26 13:39:03,315 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+
+2023-03-26 13:39:03,346 INFO DEFAULT_GROUP@@living-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:9999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-26 13:39:03,346 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-service, ips: 
+
+2023-03-26 13:39:13,441 INFO DEFAULT_GROUP@@living-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:11111:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-26 13:39:13,441 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-gateway, ips: 192.168.179.1:11111_true,
+
+2023-03-26 13:39:13,442 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-gateway, ips: 192.168.179.1:11111_true,
+
+2023-03-26 13:39:17,764 INFO DEFAULT_GROUP@@living-service {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:9999:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-26 13:39:17,765 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-service, ips: 192.168.179.1:9999_true,
+
+2023-03-26 13:39:17,770 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-service, ips: 192.168.179.1:9999_true,
+
+2023-03-26 13:39:26,939 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-26 13:39:26,939 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-26 13:39:26,944 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 192.168.179.1:8888_true,
+
+2023-03-26 13:39:27,511 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.179.1:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-26 13:39:27,511 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.179.1:8080_true,
+
+2023-03-26 13:39:27,512 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.179.1:8080_true,
+
+2023-03-26 13:45:52,262 INFO {POS} {IP-DISABLED} valid: 192.168.179.1:11111@DEFAULT@DEFAULT_GROUP@@living-gateway, region: unknown, msg: client timeout after 15000, last beat: 1679809534475
+
+2023-03-26 13:45:53,339 INFO {POS} {IP-DISABLED} valid: 192.168.179.1:8080@DEFAULT@DEFAULT_GROUP@@renren-fast, region: unknown, msg: client timeout after 15000, last beat: 1679809537989
+
+2023-03-26 13:45:54,555 INFO {POS} {IP-DISABLED} valid: 192.168.179.1:9999@DEFAULT@DEFAULT_GROUP@@living-service, region: unknown, msg: client timeout after 15000, last beat: 1679809538652
+
+2023-03-26 13:45:57,386 INFO {POS} {IP-DISABLED} valid: 192.168.179.1:8888@DEFAULT@DEFAULT_GROUP@@living-commodity, region: unknown, msg: client timeout after 15000, last beat: 1679809537920
+
+2023-03-26 13:46:07,439 INFO DEFAULT_GROUP@@living-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:11111:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-03-26 13:46:07,439 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-gateway, ips: 
+
+2023-03-26 13:46:08,388 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-03-26 13:46:08,388 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 
+
+2023-03-26 13:46:09,585 INFO DEFAULT_GROUP@@living-service {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:9999:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-03-26 13:46:09,585 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-service, ips: 
+
+2023-03-26 13:46:12,404 INFO DEFAULT_GROUP@@living-commodity {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.179.1:8888:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-03-26 13:46:12,404 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@living-commodity, ips: 
+

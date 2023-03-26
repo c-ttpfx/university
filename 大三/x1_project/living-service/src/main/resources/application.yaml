@@ -1,0 +1,15 @@
+server:
+  port: 9999
+spring:
+  cloud:
+    alicloud:
+      accessKey: LTAI5tAfXzNvjukkQgHifJvo
+      secretKey: orCJfjn5ECQnwHekn6HTlb8ncvKd2E
+      oss:
+        endpoint: oss-cn-chengdu.aliyuncs.com
+        bucket: ttpfx-study-1
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  application:
+    name: living-service

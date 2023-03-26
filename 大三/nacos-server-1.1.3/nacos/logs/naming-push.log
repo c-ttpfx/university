@@ -1,0 +1,62 @@
+2023-03-26 13:31:47,005 INFO DEFAULT_GROUP@@living-gateway is changed, add it to push queue.
+
+2023-03-26 13:31:47,052 INFO DEFAULT_GROUP@@living-commodity is changed, add it to push queue.
+
+2023-03-26 13:31:49,156 INFO DEFAULT_GROUP@@living-service is changed, add it to push queue.
+
+2023-03-26 13:35:04,983 INFO DEFAULT_GROUP@@living-commodity is changed, add it to push queue.
+
+2023-03-26 13:35:13,810 INFO DEFAULT_GROUP@@living-commodity is changed, add it to push queue.
+
+2023-03-26 13:38:43,636 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2023-03-26 13:38:43,638 INFO serviceName: DEFAULT_GROUP@@renren-fast changed, schedule push for: 192.168.179.1:59427, agent: Nacos-Java-Client:v1.1.1, key: 192.168.179.1,59427,51140716776000
+
+2023-03-26 13:38:43,638 INFO send udp packet: 192.168.179.1,59427,51140716776000
+
+2023-03-26 13:38:43,687 INFO received ack: {"type": "push-ack", "lastRefTime":"51140716776000", "data":""} from: 192.168.179.1:, cost: 59427 ms, unacked: 48, total push: 0
+
+2023-03-26 13:39:04,247 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2023-03-26 13:39:04,248 INFO serviceName: DEFAULT_GROUP@@renren-fast changed, schedule push for: 192.168.179.1:59427, agent: Nacos-Java-Client:v1.1.1, key: 192.168.179.1,59427,51161327188400
+
+2023-03-26 13:39:04,248 INFO send udp packet: 192.168.179.1,59427,51161327188400
+
+2023-03-26 13:39:04,293 INFO DEFAULT_GROUP@@living-gateway is changed, add it to push queue.
+
+2023-03-26 13:39:04,324 INFO DEFAULT_GROUP@@living-commodity is changed, add it to push queue.
+
+2023-03-26 13:39:04,355 INFO DEFAULT_GROUP@@living-service is changed, add it to push queue.
+
+2023-03-26 13:39:14,263 INFO retry to push data, key: 192.168.179.1,59427,51161327188400
+
+2023-03-26 13:39:14,263 INFO send udp packet: 192.168.179.1,59427,51161327188400
+
+2023-03-26 13:39:14,446 INFO DEFAULT_GROUP@@living-gateway is changed, add it to push queue.
+
+2023-03-26 13:39:18,771 INFO DEFAULT_GROUP@@living-service is changed, add it to push queue.
+
+2023-03-26 13:39:24,271 INFO retry to push data, key: 192.168.179.1,59427,51161327188400
+
+2023-03-26 13:39:24,271 WARN max re-push times reached, retry times 2, key: 192.168.179.1,59427,51161327188400
+
+2023-03-26 13:39:27,944 INFO DEFAULT_GROUP@@living-commodity is changed, add it to push queue.
+
+2023-03-26 13:39:28,520 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2023-03-26 13:45:53,277 INFO DEFAULT_GROUP@@living-gateway is changed, add it to push queue.
+
+2023-03-26 13:45:54,340 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2023-03-26 13:45:55,563 INFO DEFAULT_GROUP@@living-service is changed, add it to push queue.
+
+2023-03-26 13:45:58,396 INFO DEFAULT_GROUP@@living-commodity is changed, add it to push queue.
+
+2023-03-26 13:46:08,457 INFO DEFAULT_GROUP@@living-gateway is changed, add it to push queue.
+
+2023-03-26 13:46:09,395 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2023-03-26 13:46:10,603 INFO DEFAULT_GROUP@@living-service is changed, add it to push queue.
+
+2023-03-26 13:46:13,413 INFO DEFAULT_GROUP@@living-commodity is changed, add it to push queue.
+

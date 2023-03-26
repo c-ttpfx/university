@@ -1,0 +1,32 @@
+server:
+  port: 11111
+spring:
+  application:
+    name: living-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+    gateway:
+      routes:
+        - id: living-commodity
+          uri: lb://living-commodity
+          predicates:
+            - Path=/api/commodity/**
+          filters:
+            - RewritePath=/api/(?<segment>.*),/$\{segment}
+
+        - id: living-service
+          uri: lb://living-service
+          predicates:
+            - Path=/api/service/**
+          filters:
+            - RewritePath=/api/service/(?<segment>.*),/$\{segment}
+
+        - id: renren-fast
+          uri: lb://renren-fast
+          predicates:
+            - Path=/api/**
+          filters:
+            - RewritePath=/api/(?<segment>.*),/renren-fast/$\{segment}

@@ -1,0 +1,32 @@
+server:
+  port: 8888
+
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://192.168.179.135:3306/living_commodity?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  cloud:
+    alicloud:
+      accessKey: LTAI5tAfXzNvjukkQgHifJvo
+      secretKey: orCJfjn5ECQnwHekn6HTlb8ncvKd2E
+      oss:
+        endpoint: oss-cn-chengdu.aliyuncs.com
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  application:
+    name: living-commodity
+  thymeleaf:
+    cache: false
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto #配置
+      logic-delete-value: 1 # 逻辑已删除值(默认为 1)
+      logic-not-delete-value: 0 # 逻辑未删除值(默认为 0)
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
