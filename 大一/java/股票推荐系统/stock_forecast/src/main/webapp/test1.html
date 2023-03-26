@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/echarts.js"></script>
+    <script>
+
+        var date1 = [];
+        var data1 = [];
+        function change(rawData) {
+            for (let i = 0; i < rawData.length; i++) {
+                date1.push(rawData[i].day);
+                data1.push(rawData[i].close);
+            }
+        }
+        $(function (){
+            $.ajax({url:"http://localhost:8080/stock/historyData",
+                success:function(result){
+
+                    var myChart = document.getElementById('myChart');
+                    var echarts_= echarts.init(myChart);
+                    change(result)
+                    echarts_.setOption({
+                        tooltip: {
+                            trigger: 'axis',
+                            position: function (pt) {
+                                return [pt[0], '10%'];
+                            }
+                        },
+                        title: {
+                            left: 'center',
+                            text: '股票价格走势'
+                        },
+                        toolbox: {
+                            feature: {
+                                dataZoom: {
+                                    yAxisIndex: 'none'
+                                },
+                                restore: {},
+                                saveAsImage: {}
+                            }
+                        },
+                        xAxis: {
+                            type: 'category',
+                            boundaryGap: false,
+                            data: date1
+                        },
+                        yAxis: {
+                            type: 'value',
+                            boundaryGap: [0, '100%']
+                        },
+                        dataZoom: [
+                            {
+                                type: 'inside',
+                                start: 0,
+                                end: 10
+                            },
+                            {
+                                start: 0,
+                                end: 10
+                            }
+                        ],
+                        series: [
+                            {
+                                name: '当前价格',
+                                type: 'line',
+                                symbol: 'none',
+                                sampling: 'lttb',
+                                itemStyle: {
+                                    color: 'rgb(255, 70, 131)'
+                                },
+                                areaStyle: {
+                                    color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                                        {
+                                            offset: 0,
+                                            color: 'rgb(255, 158, 68)'
+                                        },
+                                        {
+                                            offset: 1,
+                                            color: 'rgb(255, 70, 131)'
+                                        }
+                                    ])
+                                },
+                                data: data1
+                            }
+                        ]})
+                },
+                method:'post',
+                error:function (){
+                    alert('error')
+                },
+                dataType:'json'
+            });
+        })
+    </script>
+</head>
+<body>
+<div id="myChart" style="height: 500px;width: 700px;"></div>
+
+</body>
+</html>

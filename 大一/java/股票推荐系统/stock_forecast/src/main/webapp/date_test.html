@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script >
+        let base = new Date('2021-12-8').getTime();
+        let oneDay = 24 * 3600 * 1000;
+        var dates = [];
+        for (let i = 1; i <= 10; i++) {
+            base += oneDay;
+            let now = new Date(base);
+            console.log(now)
+            var s = now.getFullYear()+"-"+(now.getMonth()+1)+"-"+now.getDate();
+            dates.push(s);
+        }
+        console.log(dates)
+    </script>
+</head>
+<body>
+
+</body>
+</html>
